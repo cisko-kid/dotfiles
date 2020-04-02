@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/mnt/d/Media/eBooks/Vim/dnvim-code'
+let g:netrw_dirhist_2='/mnt/d/Media/eBooks/Vim/dnvim-code/code'
+let g:netrw_dirhist_3='/mnt/d/Media/eBooks/Vim/dnvim-code/code/files'
+let g:netrw_dirhist_4='/mnt/d/Media/eBooks/Vim/dnvim-code'
+let g:netrw_dirhist_5='/mnt/d/Media/eBooks/Vim/dnvim-code/code'
+let g:netrw_dirhist_6='/mnt/d/Media/eBooks/Vim/dnvim-code/code/ex_mode'
