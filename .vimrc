@@ -78,14 +78,24 @@ nnoremap <space> za
 set foldlevelstart=10   " start with fold level of 1
 " }}}
 
-" Key mapping {{{
+" Key mapping {{{ 
+inoremap jk <ESC>
 
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 " }}}
 
 " Leader Shortcuts {{{
-let mapleader=","
+let mapleader=" "
 vnoremap <leader>y "+y
 map <leader><space> :let @/=''<cr>
 map <leader>l :set list!<CR>
 " }}}
+
+" Misc
+set clipboard+=unnamed
+set tags=../tags,tags
 
